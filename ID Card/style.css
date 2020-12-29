@@ -1,0 +1,57 @@
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 5%;
+}
+
+#user {
+  text-align: center;
+  letter-spacing: 10%;
+  padding: 10%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  padding-bottom: 10%;
+  margin-top: 10%;
+}
+
+#user_info {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: auto;
+  max-width: 275px;
+  min-width: 200px;
+  height: 100%;
+  margin: 10% 40%;
+  background: url(bg-pattern-card.svg) no-repeat;
+  background-size: 100%;
+  background-color: #fff;
+}
+
+.attribution {
+  display: block;
+  margin-top: 5%;
+}
+
+#info {
+  padding-inline-start: 0px;
+  border-top: 3px solid rgba(212, 212, 212, 0.938);
+  padding-top: 5%;
+}
+
+body {
+  background: url(bg-pattern-bottom.svg) right 5% bottom -300px no-repeat,
+    url(bg-pattern-top.svg) left 10% top -300px no-repeat;
+  background-color: rgb(60, 161, 170);
+  background-size: contain;
+  width: 100%;
+  height: auto;
+}
